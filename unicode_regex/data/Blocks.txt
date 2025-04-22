@@ -1,0 +1,39 @@
+# Unicode Block Definitions
+# Format: <first_code_point>..<last_code_point>; <block_name>
+
+# Basic blocks for testing
+0000..007F; Basic Latin
+0080..00FF; Latin-1 Supplement
+0100..017F; Latin Extended-A
+0180..024F; Latin Extended-B
+0250..02AF; IPA Extensions
+02B0..02FF; Spacing Modifier Letters
+0300..036F; Combining Diacritical Marks
+0370..03FF; Greek and Coptic
+0400..04FF; Cyrillic
+0500..052F; Cyrillic Supplement
+0530..058F; Armenian
+0590..05FF; Hebrew
+0600..06FF; Arabic
+0700..074F; Syriac
+0750..077F; Arabic Supplement
+0780..07BF; Thaana
+07C0..07FF; NKo
+0800..083F; Samaritan
+0840..085F; Mandaic
+0860..086F; Syriac Supplement
+0870..089F; Arabic Extended-B
+08A0..08FF; Arabic Extended-A
+0900..097F; Devanagari
+0980..09FF; Bengali
+0A00..0A7F; Gurmukhi
+0A80..0AFF; Gujarati
+0B00..0B7F; Oriya
+0B80..0BFF; Tamil
+0C00..0C7F; Telugu
+0C80..0CFF; Kannada
+0D00..0D7F; Malayalam
+0D80..0DFF; Sinhala
+0E00..0E7F; Thai
+0E80..0EFF; Lao
+0F00..0FFF; Tibetan

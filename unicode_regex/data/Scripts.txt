@@ -1,0 +1,79 @@
+# Scripts.txt
+# Basic script definitions for testing
+# Format: <code_points>; <script_name>
+
+# Latin script
+0041..005A; Latin  # Uppercase A-Z
+0061..007A; Latin  # Lowercase a-z
+00C0..00D6; Latin  # Latin-1 Supplement
+00D8..00F6; Latin  # Latin-1 Supplement
+00F8..00FF; Latin  # Latin-1 Supplement
+
+# Greek script
+0370..0373; Greek  # Greek and Coptic
+0375..0377; Greek  # Greek and Coptic
+037A..037D; Greek  # Greek and Coptic
+037F..0383; Greek  # Greek and Coptic
+0384..0385; Greek  # Greek and Coptic
+0386..0386; Greek  # Greek and Coptic
+0388..038A; Greek  # Greek and Coptic
+038C..038C; Greek  # Greek and Coptic
+038E..03A1; Greek  # Greek and Coptic
+03A3..03E1; Greek  # Greek and Coptic
+
+# Cyrillic script
+0400..0481; Cyrillic  # Cyrillic
+0482..0483; Cyrillic  # Cyrillic
+0484..0487; Cyrillic  # Cyrillic
+0488..048F; Cyrillic  # Cyrillic
+0490..04FF; Cyrillic  # Cyrillic
+
+# Common symbols
+0020..0020; Common  # SPACE
+0021..0023; Common  # EXCLAMATION MARK..NUMBER SIGN
+0024..0024; Common  # DOLLAR SIGN
+0025..0027; Common  # PERCENT SIGN..APOSTROPHE
+0028..002F; Common  # LEFT PARENTHESIS..SOLIDUS
+0030..0039; Common  # DIGIT ZERO..DIGIT NINE
+003A..0040; Common  # COLON..COMMERCIAL AT
+005B..0060; Common  # LEFT SQUARE BRACKET..GRAVE ACCENT
+007B..007E; Common  # LEFT CURLY BRACKET..TILDE
+
+# Unicode Script Definitions
+# Format: <code point range>; <script name>
+
+0000..007F; Latin # Basic Latin
+0080..00FF; Latin # Latin-1 Supplement
+0100..017F; Latin # Latin Extended-A
+0180..024F; Latin # Latin Extended-B
+0250..02AF; Latin # IPA Extensions
+02B0..02FF; Latin # Spacing Modifier Letters
+0300..036F; Inherited # Combining Diacritical Marks
+0370..03FF; Greek # Greek and Coptic
+0400..04FF; Cyrillic # Cyrillic
+0500..052F; Cyrillic # Cyrillic Supplement
+0530..058F; Armenian # Armenian
+0590..05FF; Hebrew # Hebrew
+0600..06FF; Arabic # Arabic
+0700..074F; Syriac # Syriac
+0750..077F; Arabic # Arabic Supplement
+0780..07BF; Thaana # Thaana
+07C0..07FF; NKo # NKo
+0800..083F; Samaritan # Samaritan
+0840..085F; Mandaic # Mandaic
+0860..086F; Syriac # Syriac Supplement
+0870..089F; Arabic # Arabic Extended-B
+08A0..08FF; Arabic # Arabic Extended-A
+0900..097F; Devanagari # Devanagari
+0980..09FF; Bengali # Bengali
+0A00..0A7F; Gurmukhi # Gurmukhi
+0A80..0AFF; Gujarati # Gujarati
+0B00..0B7F; Oriya # Oriya
+0B80..0BFF; Tamil # Tamil
+0C00..0C7F; Telugu # Telugu
+0C80..0CFF; Kannada # Kannada
+0D00..0D7F; Malayalam # Malayalam
+0D80..0DFF; Sinhala # Sinhala
+0E00..0E7F; Thai # Thai
+0E80..0EFF; Lao # Lao
+0F00..0FFF; Tibetan # Tibetan
