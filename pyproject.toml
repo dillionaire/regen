@@ -25,9 +25,7 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Topic :: Text Processing :: General",
 ]
-dependencies = [
-    "pytest>=8.3.5",
-]
+dependencies = []
 
 [project.urls]
 Homepage = "https://github.com/dillionaire/regen"
@@ -37,7 +35,7 @@ Issues = "https://github.com/dillionaire/regen/issues"
 
 [project.optional-dependencies]
 dev = [
-    "pytest>=7.0",
+    "pytest>=8.3.5",
     "pytest-cov",
     "mypy>=1.0",
     "ruff>=0.1.0",
